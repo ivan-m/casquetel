@@ -1,0 +1,25 @@
+name:                casquetel
+version:             0.1.0.0
+synopsis:            Cassandra CQL with added protection
+-- description:
+license:             MIT
+license-file:        LICENSE
+author:              Ivan Lazar Miljenovic
+maintainer:          Ivan.Miljenovic@gmail.com
+-- copyright:
+category:            Database
+build-type:          Simple
+extra-source-files:  ChangeLog.md, README.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Database.Cassandra.Casquetel
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base >=4.9 && <4.10
+                     , binary == 0.8.*
+                     , bytestring
+                     , text
+                     , uuid
+  hs-source-dirs:      src
+  default-language:    Haskell2010
