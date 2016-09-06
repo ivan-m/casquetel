@@ -17,3 +17,9 @@ cabal.sandbox.config
 *.eventlog
 .stack-work/
 cabal.project.local
+/TAGS
+/*.ebal
+.dir-locals.el
+*~
+.DS_Store
+*.swp
