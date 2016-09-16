@@ -275,3 +275,9 @@ data CStringMultiMap = CStringMultiMap { csmmSize :: !CShort
                                          -- TODO: consider using a Map
                                        }
   deriving (Eq, Ord, Show, Read, Generic, ToCQL)
+
+-- * Section 4: Messages
+
+-- ** Section 4.1: Requests
+
+-- *** Section 4.1.1: Startup
